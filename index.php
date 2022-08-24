@@ -10,28 +10,38 @@
 </head>
 <body>
    <nav class="navbar navbar-expand-lg border-bottom">
-   <div class="container-fluid">
-      <a class="navbar-brand" href="#">Logo</a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-         <ul class="navbar-nav">
-            <li class="nav-item">
-               <a class="nav-link" href="#">Introduzione</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">Norme sulla privacy</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">Termini di servizio</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">Tecnologie</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link active text-primary" aria-current="page" href="#">Domande frequenti</a>
-            </li>
-         </ul>
+      <div class="container-fluid">
+         <a class="navbar-brand" href="#">Logo</a>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Introduzione</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Norme sulla privacy</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Termini di servizio</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Tecnologie</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active text-primary" aria-current="page" href="#">Domande frequenti</a>
+               </li>
+            </ul>
+         </div>
       </div>
-   </div>
    </nav>
+   <main>
+      <div class="container">
+         <div class="row py-5">
+            <div class="col-8 offset-2">
+               <h4>Domanda</h4>
+               <p>risposta</p>
+            </div>
+         </div>
+      </div>
+   </main>
 </body>
 </html>
