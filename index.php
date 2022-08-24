@@ -95,8 +95,14 @@
       <div class="container">
          <div class="row py-5">
             <div class="col-8 offset-2">
-               <h4>Domanda</h4>
-               <p>risposta</p>
+               <?php foreach ($faqList as $key => $post) { ?>
+                  <h4>
+                     <?php echo $post['question']?>
+                  </h4>             
+                  <p>
+                     <?php echo $post['answer']?>
+                  </p>
+               <?php } ?>
             </div>
          </div>
       </div>
